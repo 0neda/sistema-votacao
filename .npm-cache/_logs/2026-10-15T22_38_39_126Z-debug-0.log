@@ -1,0 +1,26 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.6.2
+2 info using node@v24.11.1
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\DEV\sistema-votacao\.npmrc
+5 silly config load:file:C:\Users\layne\.npmrc
+6 silly config load:file:C:\Users\layne\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--dry-run" "--ignore-scripts" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:C:\DEV\sistema-votacao\.npm-cache\_logs\2026-10-15T22_38_39_126Z-
+10 verbose logfile C:\DEV\sistema-votacao\.npm-cache\_logs\2026-10-15T22_38_39_126Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly idealTree buildDeps
+14 silly fetch manifest @inertiajs/react@^3.0.0
+15 silly packumentCache full:https://registry.npmjs.org/@inertiajs%2freact cache-miss
+16 http fetch GET https://registry.npmjs.org/npm attempt 1 failed with EACCES
+17 http fetch GET https://registry.npmjs.org/@inertiajs%2freact attempt 1 failed with EACCES
+18 http fetch GET https://registry.npmjs.org/npm attempt 2 failed with EACCES
+19 http fetch GET https://registry.npmjs.org/@inertiajs%2freact attempt 2 failed with EACCES
+20 http fetch GET https://registry.npmjs.org/npm attempt 3 failed with EACCES
+21 http fetch GET https://registry.npmjs.org/@inertiajs%2freact attempt 3 failed with EACCES
+22 silly fetch manifest @inertiajs/vite@^3.0.0
+23 silly packumentCache full:https://registry.npmjs.org/@inertiajs%2fvite cache-miss
+24 http fetch GET https://registry.npmjs.org/@inertiajs%2fvite attempt 1 failed with EACCES
+25 http fetch GET https://registry.npmjs.org/@inertiajs%2fvite attempt 2 failed with EACCES

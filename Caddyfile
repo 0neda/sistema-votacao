@@ -1,0 +1,16 @@
+{
+    admin off
+    auto_https off
+}
+
+:8080 {
+    reverse_proxy 127.0.0.1:8001 127.0.0.1:8002 {
+        lb_policy first
+        health_uri /up
+        health_interval 2s
+        health_timeout 1s
+        fail_duration 5s
+        lb_try_duration 3s
+        lb_try_interval 250ms
+    }
+}
